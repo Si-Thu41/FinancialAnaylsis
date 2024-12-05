@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naing Analytics</title>
+    <link rel="icon" href="./icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form">
+    <fieldset id="logIn">
+        <legend>Welcome to Naing Analytics </legend>
+        <label class="UserInput">User Name:</label><input type="text" min="5" id="userName" name="userName" required><br><br>
+        <label class="UserInput">Email:</label><input type="text" min="5"  id="email" required><br><br>
+        <label class="UserInput" >Password:</label><input type="password" min="5" id="password" required><br><br>
+        <label class="UserInput">Confirm Password:</label><input type="password" min="5"  id="cpassword" required><br><br>
+        <div class="btnContainer">
+        <button type="submit" id="submit">Sign Up</button><br></div>
+        <span id="errorMessage"></span>
+    </form>
+    </fieldset>
+    <script src="logIn.js"></script>
+</body>
+</html>
